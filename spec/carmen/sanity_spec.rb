@@ -12,7 +12,7 @@ describe "default data sanity check" do
   end
 
   it "has 248 countries" do
-    Carmen::Country.all.size.must_equal 248
+    Carmen::Country.all.size.must_equal 249
   end
 
   it "can retrieve a country" do
@@ -26,11 +26,6 @@ describe "default data sanity check" do
     il = us.subregions.coded('IL')
     il.instance_of?(Carmen::Region).must_equal(true, "did not find Illinois")
     il.name.must_equal('Illinois')
-  end
-
-  it "observes region data in the overlay directory" do
-    pr = Carmen::Country.coded('PR')
-    pr.must_equal nil
   end
 
   it "observes locale data in the overlay directory" do

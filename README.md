@@ -2,17 +2,13 @@
 
 > A repository of geographic regions for Ruby
 
-[![Build Status](https://secure.travis-ci.org/jim/carmen.png?branch=master)](http://travis-ci.org/jim/carmen)
+[![Build Status](https://secure.travis-ci.org/carmen-ruby/carmen.png?branch=master)](http://travis-ci.org/carmen-ruby/carmen)
 
 Carmen features the following:
 
 * Clean API
 * Complete countries & regions data from the iso-codes Debian package
 * A sane approach to internationalization
-
-## Ruby on Rails
-
-If you are using Carmen with Rails, you should check out the [carmen-rails](http://github.com/jim/carmen-rails) library.
 
 # How to Use Carmen
 
