@@ -1,5 +1,18 @@
 ### master (unreleased)
 
+##### Geographic Modifications
+* [#274](https://github.com/carmen-ruby/carmen/pull/274) Run update_data script
+  to sync with the ISO repository. Includes changes for CN, IN, GM, MK,
+  MZ, and ZA ([@swcraig](https://github.com/swcraig))
+
+### 1.1.2 (May 2, 2019)
+
+##### Geographic Modifications
+* [#270](https://github.com/carmen-ruby/carmen/pull/270) Update name of FYR of Macedonia to North Macedonia ([@szajbus](https://github.com/szajbus))
+* [#267](https://github.com/carmen-ruby/carmen/pull/267) Update Moroccan regions and subregions to match the new standard (after 2015), because of the absence of the new iso codes, I used the last two digit of the non-official [HASC](http://www.statoids.com/ihasc.html) codes.
+([@kainio](https://github.com/kainio))
+* [#268](https://github.com/carmen-ruby/carmen/pull/268) Remove UK overlays for Middlesex and Wiltshire ([@manewitz](https://github.com/manewitz))
+
 ### 1.1.1 (May 7, 2018)
 * [#250](https://github.com/carmen-ruby/carmen/pull/250) Add better fuzzy
   searching when using `Querying#named`. Calling this method with `fuzzy:
